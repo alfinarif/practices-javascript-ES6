@@ -121,7 +121,43 @@ const anonymousFunc = function(){
 const arrowFunc = () => {
     return "This is an arrow function";
 }
-console.log(arrowFunc());
+// console.log(arrowFunc());
+
+
+
+// Multidimensional Array
+const bangladesh = ["Dhaka", "Chittagong", "Comilla"];
+const india = ["Mumbai", "Delhi", "Kolkata"];
+const pakistan = ["karachi", "Lahore", "Islamabad"];
+
+const asia = [bangladesh, india, pakistan];
+
+const accessData = asia[1][1];
+// console.log(accessData);
+
+
+
+// Destructuring Array
+const countries = ["Bangladesh", "Pakistan", "Srilanka", "India", "Nepal", "China", "Japan"];
+
+// first= Bangladesh, second= Pakistan, third= Srilanka, rest= [India, Nepal, China, Japan];
+const [first, second, third, ...rest] = countries; 
+// console.log(first, second, third, rest);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
